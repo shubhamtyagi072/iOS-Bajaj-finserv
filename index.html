@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Open iOS App</title>
+
+    <style>
+
+      body {
+
+          font-family: Arial, sans-serif;
+
+          text-align: center;
+
+          margin-top: 100px;
+
+      }
+
+      a {
+
+          display: inline-block;
+
+          padding: 15px 30px;
+
+          text-decoration: none;
+
+          background-color: #007BFF;
+
+          color: white;
+
+          font-size: 18px;
+
+          border-radius: 5px;
+
+      }
+
+      a:hover {
+
+          background-color: #0056b3;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Demo Web Page</h1>
+
+    <p>Click the button below to open the iOS app:</p>
+
+    <a href="com.bajaj://main" 
+   onclick="window.location='com.bajaj://main'; setTimeout(function(){ window.location='https://www.bajajfinserv.in/'; }, 1000); return false;">
+    Open Bajaj Finserv Super App
+</a>
+
+  </body>
+</html>
